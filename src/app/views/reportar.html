@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help Desk</title>
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+</head>
+<body>
+<header>
+    <h1>Help Desk</h1>
+</header>
+<nav>
+    <ul>
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <a href="reportar.html">Reportar</a>
+        </li>
+        <li>
+            <a href="tickets.html">Tickets</a>
+        </li>
+    </ul>
+</nav>
+<main>
+    <form action="reportar.js" method="POST" name="reportIssueForm" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <legend>Reportar Incidente</legend>
+            <div >
+                <label for="titleIssue">Titulo del incidente: </label>
+                <input type="text" name="title" id="titleIssue" required placeholder="Titulo del incidente">
+            </div>
+            <div>
+                <label for="categoryIssue">Categoria: </label>
+                <select name="category" id="categoryIssue" required>
+                    <option value="">Seleccione una Categoria</option>
+                    <option value="Hardware">Hardware</option>
+                    <option value="Software">Software</option>
+                    <option value="Education">Red</option>
+                </select>
+            </div>
+            <div role="radiogroup" aria-labelledby="priorityLabel">
+                <span id="priorityLabel">Nivel de prioridad</span>
+                <div>
+                    <input type="radio" name="priority" id="lowPriority" value="lowPriority">
+                    <label for="lowPriority">Baja</label>
+                </div>
+                <div>
+                    <input type="radio" name="priority" id="mediumPriority" value="mediumPriority">
+                    <label for="mediumPriority">Media</label>
+                </div>
+                <div>
+                    <input type="radio" name="priority" id="highPriority" value="highPriority">
+                    <label for="highPriority">Alta</label>
+                </div>
+            </div>
+            <div>
+                <label for="descriptionIssue">Descripcion detallada:</label>
+                <textarea name="descriptionIssue" id="descriptionIssue" cols="30" rows="10" required placeholder="Ingrese una descripcion detallada del error"></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <address>Machala, El Oro, Ecuador</address>
+    <small>&copy; 2026</small>
+</footer>
+</body>
+</html>

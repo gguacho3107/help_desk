@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa3b767f-94e8-42e8-81cf-b60ed7d472b7" name="Changes" comment="Se ha agregado estilos al Help Desk y se ha creado el boton de Enviar y" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gguacho3107"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gguacho3107/help_desk.git",
+    "accountId": "189f4d1e-e1c5-444e-ac77-e01d4b12b9f5"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000283536923" />
+      <entry key="S2" value="1.0267516860950539" />
+      <entry key="S5" value="1.5672724172114951" />
+      <entry key="S10" value="2.6561752700707064" />
+      <entry key="S30" value="4.445875995224995" />
+      <entry key="S60" value="5.151830598103553" />
+      <entry key="M2" value="5.911422576266489" />
+      <entry key="M5" value="13.67567632390485" />
+      <entry key="M10" value="34.97949183802482" />
+      <entry key="M15" value="56.13160875045282" />
+      <entry key="M30" value="106.96226886327753" />
+      <entry key="H1" value="166.98301537416063" />
+      <entry key="H2" value="218.8082898557317" />
+      <entry key="H4" value="254.05332749761894" />
+      <entry key="D1" value="289.9690120158079" />
+      <entry key="W1" value="296.83388279917745" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="8.773021223320955E-145" />
+      <entry key="S5" value="2.3837539149070687E-58" />
+      <entry key="S10" value="1.5482563950731256E-29" />
+      <entry key="S30" value="3.1126160735143055E-10" />
+      <entry key="S60" value="2.9989692910139602E-5" />
+      <entry key="M2" value="0.011273521771993807" />
+      <entry key="M5" value="0.43224316117196104" />
+      <entry key="M10" value="1.7567773653725693" />
+      <entry key="M15" value="3.5766748020704586" />
+      <entry key="M30" value="10.24496881242034" />
+      <entry key="H1" value="20.243501438471267" />
+      <entry key="H2" value="29.514377841164666" />
+      <entry key="H4" value="35.940030366330674" />
+      <entry key="D1" value="42.52544146700586" />
+      <entry key="W1" value="43.78587314328636" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0016085762056007283" />
+      <entry key="MS500" value="0.2762411299257449" />
+      <entry key="S2" value="0.7470801354309227" />
+      <entry key="S5" value="1.4067586879074496" />
+      <entry key="S10" value="2.533968495479083" />
+      <entry key="S30" value="4.381856383060794" />
+      <entry key="S60" value="5.115203292527662" />
+      <entry key="M2" value="5.902523407537985" />
+      <entry key="M5" value="14.092228181334605" />
+      <entry key="M10" value="36.717695222678195" />
+      <entry key="M15" value="59.68735348592331" />
+      <entry key="M30" value="117.18165308409218" />
+      <entry key="H1" value="187.2017278678287" />
+      <entry key="H2" value="248.30438946060562" />
+      <entry key="H4" value="289.9821078240179" />
+      <entry key="D1" value="332.4922093500397" />
+      <entry key="W1" value="340.61942513133624" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3G1LVwzYQzDx0IfvtdYjs3ZXrUV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "develop",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/help_desk/src/app/views/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.26222.58" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa3b767f-94e8-42e8-81cf-b60ed7d472b7" name="Changes" comment="" />
+      <created>1783134157395</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783134157395</updated>
+      <workItem from="1783134160609" duration="310000" />
+      <workItem from="1783478015813" duration="6094000" />
+      <workItem from="1783560089078" duration="3115000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se ha agregado estilos al Help Desk y se ha creado el boton de Enviar y">
+      <option name="closed" value="true" />
+      <created>1783562456124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783562456124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se ha agregado estilos al Help Desk y se ha creado el boton de Enviar y" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se ha agregado estilos al Help Desk y se ha creado el boton de Enviar y" />
+  </component>
+</project>
