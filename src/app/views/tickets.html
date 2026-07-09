@@ -23,43 +23,43 @@
     </ul>
 </nav>
 <main>
-    <form action="reportar.js" method="POST" name="reportIssueForm" enctype="application/x-www-form-urlencoded">
-        <fieldset>
-            <legend>Reportar Incidente</legend>
-            <div >
-                <label for="titleIssue">Titulo del incidente: </label>
-                <input type="text" name="title" id="titleIssue" required placeholder="Titulo del incidente">
-            </div>
-            <div>
-                <label for="categoryIssue">Categoria: </label>
-                <select name="category" id="categoryIssue" required>
-                    <option value="">Seleccione una Categoria</option>
-                    <option value="Hardware">Hardware</option>
-                    <option value="Software">Software</option>
-                    <option value="Education">Red</option>
-                </select>
-            </div>
-            <div role="radiogroup" aria-labelledby="priorityLabel">
-                <span id="priorityLabel">Nivel de prioridad</span>
-                <div>
-                    <input type="radio" name="priority" id="lowPriority" value="lowPriority">
-                    <label for="lowPriority">Baja</label>
-                </div>
-                <div>
-                    <input type="radio" name="priority" id="mediumPriority" value="mediumPriority">
-                    <label for="mediumPriority">Media</label>
-                </div>
-                <div>
-                    <input type="radio" name="priority" id="highPriority" value="highPriority">
-                    <label for="highPriority">Alta</label>
-                </div>
-            </div>
-            <div>
-                <label for="descriptionIssue">Descripcion detallada:</label>
-                <textarea name="descriptionIssue" id="descriptionIssue" cols="30" rows="10" required placeholder="Ingrese una descripcion detallada del error"></textarea>
-            </div>
-        </fieldset>
-    </form>
+    <div>
+        <table>
+            <caption>Lista de Tickets</caption>
+            <thead>
+            <tr>
+                <th>Titulo</th>
+                <th>Categoria</th>
+                <th>Prioridad</th>
+                <th>Descripcion</th>
+                <th>Estado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Error de Impresora</td>
+                <td>Hardware</td>
+                <td>Media</td>
+                <td>La impresora necesita limpieza</td>
+                <td>En espera</td>
+            </tr>
+            <tr>
+                <td>Excel se cierra</td>
+                <td>Software</td>
+                <td>Alta</td>
+                <td>Excel se cierra inmediatamente al abrir</td>
+                <td>Atendido</td>
+            </tr>
+            <tr>
+                <td>No se conecta a la red wifi</td>
+                <td>Red</td>
+                <td>Alta</td>
+                <td>La computadora no se conecta a la red wifi</td>
+                <td>Resuelto</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
 </main>
 
 <footer>
