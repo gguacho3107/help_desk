@@ -57,6 +57,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -77,7 +78,7 @@ main {
     flex: 1;
     width: 100%;
     max-width: 1000px;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 30px;
     background-color: var(--bg-surface);
     border-radius: var(--border-radius);
@@ -221,7 +222,7 @@ input[type="radio"]:checked::before {
     transform: scale(1);
 }
 
-/* Botones personalidos*/
+/* Botones personalizados*/
 button, input[type="submit"] {
     background-color: var(--accent-primary);
     color: #fff;
@@ -232,8 +233,9 @@ button, input[type="submit"] {
     font-size: 1rem;
     cursor: pointer;
     transition: var(--transition);
-    display: inline-block;
+    display: block;
     margin-top: 10px;
+    width: 100%;
 }
 
 button:hover, input[type="submit"]:hover {
@@ -253,6 +255,13 @@ table {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: var(--border-radius);
+}
+
 caption {
     font-size: 1.5rem;
     font-weight: bold;
@@ -268,6 +277,7 @@ th, td {
     text-align: left;
     border: none !important;
     border-bottom: 1px solid var(--border-color) !important;
+    white-space: nowrap;
 }
 
 th {
@@ -291,6 +301,36 @@ tbody tr:hover {
     background-color: #242936;
 }
 
+/* Barra personalizada para la tabla*/
+
+.table-container {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) var(--bg-input);
+}
+
+
+.table-container::-webkit-scrollbar {
+    height: 15px;
+    width: 15px;
+}
+
+
+.table-container::-webkit-scrollbar-track {
+    background: var(--bg-input);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+
+.table-container::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: var(--border-radius);
+    border: 2px solid var(--bg-input);
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
+}
+
 /* Estilo para el pie de pagina */
 footer {
     background-color: var(--bg-surface);
@@ -304,4 +344,33 @@ footer {
 footer address {
     font-style: normal;
     margin-bottom: 5px;
+}
+
+/* Media Query (Mobile First)  */
+
+/* Tablets y pantallas medianas (min-width: 600px) */
+@media (min-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    main {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    button, input[type="submit"] {
+        width: auto; /* El botón recupera su tamaño de contenido */
+    }
+}
+
+/* Escritorios y pantallas grandes (min-width: 900px) */
+@media (min-width: 900px) {
+    .grid-layout {
+        grid-template-columns: 2fr 1fr; /* Estructura asimétrica si se añaden más elementos en el index */
+    }
+
+    nav ul {
+        gap: 30px;
+    }
 }
