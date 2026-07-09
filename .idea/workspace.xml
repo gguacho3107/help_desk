@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3b767f-94e8-42e8-81cf-b60ed7d472b7" name="Changes" comment="Se ha agregado estilos al Help Desk y se ha creado el boton de Enviar y" />
+    <list default="true" id="fa3b767f-94e8-42e8-81cf-b60ed7d472b7" name="Changes" comment="Se ha agregado estilos al Help Desk y se ha creado el boton de Enviar y">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/assets/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/reportar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/reportar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/views/tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/views/tickets.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,74 +28,78 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN"
+    }
+  ],
   "lastFilter": {
-    "state": "OPEN",
-    "assignee": "gguacho3107"
+    "state": "OPEN"
   }
 }]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/gguacho3107/help_desk.git",
-    "accountId": "189f4d1e-e1c5-444e-ac77-e01d4b12b9f5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gguacho3107/help_desk.git&quot;,
+    &quot;accountId&quot;: &quot;189f4d1e-e1c5-444e-ac77-e01d4b12b9f5&quot;
   }
-}]]></component>
+}</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.55864356903611" />
-      <entry key="MS500" value="1.8900766405003033" />
-      <entry key="S2" value="2.0021700224618013" />
-      <entry key="S5" value="2.2371781141491995" />
-      <entry key="S10" value="2.4930927656720474" />
-      <entry key="S30" value="2.9797248708787816" />
-      <entry key="S60" value="4.230261739230636" />
-      <entry key="M2" value="6.816002333822282" />
-      <entry key="M5" value="14.978874401219516" />
-      <entry key="M10" value="34.72894666021302" />
-      <entry key="M15" value="55.30593569613834" />
-      <entry key="M30" value="106.48476026837818" />
-      <entry key="H1" value="168.3170166567734" />
-      <entry key="H2" value="222.42041798922577" />
-      <entry key="H4" value="259.4993100035912" />
-      <entry key="D1" value="297.4820261300536" />
-      <entry key="W1" value="304.76263672415564" />
+      <entry key="MS100" value="1.0000000000000004" />
+      <entry key="MS500" value="1.0008098823689595" />
+      <entry key="S2" value="1.1686964186977213" />
+      <entry key="S5" value="1.4954348695892858" />
+      <entry key="S10" value="1.8530548592344482" />
+      <entry key="S30" value="3.448956912558802" />
+      <entry key="S60" value="4.814771018548682" />
+      <entry key="M2" value="6.915050171039797" />
+      <entry key="M5" value="14.640988581164025" />
+      <entry key="M10" value="28.24902463840634" />
+      <entry key="M15" value="43.784409566844374" />
+      <entry key="M30" value="91.63193311701308" />
+      <entry key="H1" value="161.30467709499132" />
+      <entry key="H2" value="229.5601719764598" />
+      <entry key="H4" value="279.4325203578178" />
+      <entry key="D1" value="332.75660102132883" />
+      <entry key="W1" value="343.215255726893" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.5068842160480046E-6" />
-      <entry key="MS500" value="0.06848823540298066" />
-      <entry key="S2" value="0.5115687348672159" />
-      <entry key="S5" value="0.7648241612092023" />
-      <entry key="S10" value="0.8745920047559593" />
-      <entry key="S30" value="0.9930771108908354" />
-      <entry key="S60" value="1.1696848340309043" />
-      <entry key="M2" value="1.4302271126615886" />
-      <entry key="M5" value="1.982272405013725" />
-      <entry key="M10" value="3.228883450961214" />
-      <entry key="M15" value="4.944177928768289" />
-      <entry key="M30" value="11.406214198554856" />
-      <entry key="H1" value="21.425532764765133" />
-      <entry key="H2" value="30.918562607432726" />
-      <entry key="H4" value="37.57698495548166" />
-      <entry key="D1" value="44.453764197018124" />
-      <entry key="W1" value="45.775327496270876" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="6.844921326253292E-270" />
+      <entry key="S2" value="8.090631715463264E-68" />
+      <entry key="S5" value="2.2470487436463815E-27" />
+      <entry key="S10" value="7.640960064841837E-14" />
+      <entry key="S30" value="1.0009844904087977E-4" />
+      <entry key="S60" value="0.021995387739602277" />
+      <entry key="M2" value="0.40843759985622047" />
+      <entry key="M5" value="3.0415573205688977" />
+      <entry key="M10" value="6.698830958468125" />
+      <entry key="M15" value="9.404930042498245" />
+      <entry key="M30" value="16.486444109679663" />
+      <entry key="H1" value="27.497918195335064" />
+      <entry key="H2" value="38.95954598603148" />
+      <entry key="H4" value="47.5522968166389" />
+      <entry key="D1" value="56.85327650128374" />
+      <entry key="W1" value="58.68685954607092" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.352134310887418" />
-      <entry key="MS500" value="1.8300825699463554" />
-      <entry key="S2" value="2.0480194636697604" />
-      <entry key="S5" value="2.5496519123087023" />
-      <entry key="S10" value="3.0508253365748073" />
-      <entry key="S30" value="3.832081353802013" />
-      <entry key="S60" value="5.307608883452401" />
-      <entry key="M2" value="8.182068003246217" />
-      <entry key="M5" value="16.922007314948186" />
-      <entry key="M10" value="37.92706625573573" />
-      <entry key="M15" value="60.22115086648477" />
-      <entry key="M30" value="117.86160259688828" />
-      <entry key="H1" value="189.71580604414342" />
-      <entry key="H2" value="253.31958901171646" />
-      <entry key="H4" value="297.0644163290781" />
-      <entry key="D1" value="341.93342612867974" />
-      <entry key="W1" value="350.53761579296946" />
+      <entry key="MS100" value="0.018198962288569626" />
+      <entry key="MS500" value="0.44907097886255726" />
+      <entry key="S2" value="0.9517925502432311" />
+      <entry key="S5" value="1.3743442911640733" />
+      <entry key="S10" value="1.7815065669708956" />
+      <entry key="S30" value="3.4217173944084247" />
+      <entry key="S60" value="4.821920762013585" />
+      <entry key="M2" value="7.3104699927104555" />
+      <entry key="M5" value="17.66137562273331" />
+      <entry key="M10" value="34.92340045552136" />
+      <entry key="M15" value="53.16424619736765" />
+      <entry key="M30" value="108.09176549227035" />
+      <entry key="H1" value="188.77684504801323" />
+      <entry key="H2" value="268.4998966985846" />
+      <entry key="H4" value="326.9722004387465" />
+      <entry key="D1" value="389.60727398208326" />
+      <entry key="W1" value="401.9017290460792" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -114,7 +124,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/responsive-layout",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "list.type.of.created.stylesheet": "CSS",
